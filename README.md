@@ -4,7 +4,6 @@ ruby-transmitsms
 Ruby gem to easily access TransmitSMS RESTful APIs
 
 [![Gem Version](https://badge.fury.io/rb/ruby-transmitsms.svg)](http://badge.fury.io/rb/ruby-transmitsms)
-[![Build Status](https://drone.io/github.com/transmitsms/ruby-transmitsms/status.png)](https://drone.io/github.com/transmitsms/ruby-transmitsms/latest)
 
 ### Sample Usage
 ```ruby
@@ -53,7 +52,7 @@ Instance method parameter documentation: [SmsApi Method Params Doc](http://suppo
 * get_user_sms_responses
 * get_sms_sent
 * cancel_sms
- 
+
 ### ListsApi
 
 Instance method parameter documentation: [ListsApi Method Params Doc](http://support.burstsms.com/hc/en-us/sections/200423538-Lists)

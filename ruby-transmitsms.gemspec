@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.metadata["allowed_push_host"] = "https://rubygems.org"
 
   s.name        = "ruby-transmitsms"
-  s.version     = "0.1.1"
+  s.version     = "0.1.2"
   s.authors     = ["Transmitsms Developers"]
   s.email       = ["transmitsms@gmail.com"]
   s.homepage    = "http://transmitsms.com"
@@ -15,13 +15,14 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'typhoeus', '>=0.2.1'
   s.add_runtime_dependency 'addressable', '>=2.2.4'
-  s.add_runtime_dependency 'json', '>=1.4.6'
+  s.add_runtime_dependency 'json', '>=2.0.0'
 
   s.add_development_dependency 'rspec', '>=2.5.0'
   s.add_development_dependency 'rspec-mocks'
   s.add_development_dependency 'vcr', '>=2.9.3'
   s.add_development_dependency 'webmock', '>=1.21.0'
-#  s.add_development_dependency 'autotest'  
+  s.add_development_dependency 'test-unit', '>=3.0.0'
+#  s.add_development_dependency 'autotest'
 #  s.add_development_dependency 'autotest-rails-pure'
 #  s.add_development_dependency 'autotest-growl'
 #  s.add_development_dependency 'autotest-fsevent'
