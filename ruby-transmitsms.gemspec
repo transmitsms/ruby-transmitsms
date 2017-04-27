@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.metadata["allowed_push_host"] = "https://rubygems.org"
 
   s.name        = "ruby-transmitsms"
-  s.version     = "0.1.2"
+  s.version     = "0.1.3"
   s.authors     = ["Transmitsms Developers"]
   s.email       = ["transmitsms@gmail.com"]
   s.homepage    = "http://transmitsms.com"
