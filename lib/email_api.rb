@@ -15,7 +15,7 @@ class EmailApi
   end
 
   def create_api_key_secret()
-    api_key_secret = Base64.encode64("#{@api_key}:#{@api_secret}")
+    api_key_secret = Base64.strict_encode64("#{@api_key}:#{@api_secret}")
     "Basic #{api_key_secret}"
   end 
 
